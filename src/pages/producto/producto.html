@@ -1,0 +1,25 @@
+<ion-header>
+  <ion-navbar color="primary">
+    <ion-title>producto</ion-title>
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content padding>
+    <ion-card>
+        <img src="assets/imgs/foto.png"/>
+        <ion-card-content>
+          <ion-card-title>
+            Nombre producto
+            </ion-card-title>
+            <h2>Precio 12345...</h2>
+          <p>
+            Descripcion..........
+          </p>
+          </ion-card-content>
+      </ion-card>
+
+      <ion-buttons end>
+          <button (tap)="showConfirm()" class="btnmas" ion-button color="black" clear icon-only (tap)="iraAgregar()">
+              <ion-icon class="iconmas" name="pricetag"></ion-icon></button></ion-buttons>
+</ion-content>

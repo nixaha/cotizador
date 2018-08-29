@@ -1,0 +1,32 @@
+<ion-header>
+  <ion-navbar color="primary">
+    <ion-title>Agregar cliente</ion-title>
+    <ion-buttons end [navPush]= "login">
+      <button ion-button icon-only><ion-icon class="iconlogin" name ="contact"></ion-icon></button></ion-buttons>
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content padding>
+    <ion-list>
+
+        <ion-item>
+          <ion-label class="nombre" fixed>Nombre Empresa:</ion-label>
+          <ion-input type="text" value=""></ion-input>
+        </ion-item>
+      
+        <ion-item>
+          <ion-label class="cargo" fixed>Encargado:</ion-label>
+          <ion-input type="text"></ion-input>
+        </ion-item>
+
+        <ion-item>
+          <ion-label class="email" fixed>Correo Electronico:</ion-label>
+          <ion-input type="text"></ion-input>
+        </ion-item>
+        <br>
+        <button ion-button block>AÑADIR</button>
+      
+      </ion-list>
+
+</ion-content>
